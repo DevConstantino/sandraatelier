@@ -1,16 +1,34 @@
 @import "./variables";
+@import "./functions";
+@import "./animations";
 
 .navbar {
 	background-color: transparent;
 }
 
-.navbar-brand {
-	font-family: $brandFont;
-	color: $cor1;
-	font-size: 2em;
+.navbar-brand,
+#offcanvasTopLabel {
+	font: 2em $brandFont;
+	color: paleta(cor1);
+	cursor: pointer;
 
 	#sub-title {
 		font-size: 0.5em;
 		text-align: center;
+	}
+
+	&:hover {
+		animation: brand 4s ease infinite;
+		color: paleta(cor1);
+	}
+}
+
+.nav-link {
+	font: 1.5em $brandFont;
+	color: paleta(cor1);
+	animation: brand 4s ease infinite;
+
+	&:hover {
+		color: paleta(cor1);
 	}
 }

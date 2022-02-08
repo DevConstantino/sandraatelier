@@ -1,9 +1,13 @@
 /* Paleta de cores */
-$cor1: #fff;
-$cor2: #084177;
-$cor3: #687466;
-$cor4: #cd8d7b;
-$cor5: #fbc490;
+$cores:(
+    "cor1": #fff,
+    "cor2": #084177,
+    "cor3": #687466,
+    "cor4": #cd8d7b,
+    "cor5": #fbc490,
+);
+
 /* Fontes */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 $brandFont: "Quicksand", sans-serif;
+

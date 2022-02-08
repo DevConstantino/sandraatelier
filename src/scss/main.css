@@ -4,30 +4,6 @@
 /* Paleta de cores */
 /* Fontes */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
-.navbar {
-  background-color: transparent;
-}
-
-.navbar-brand {
-  font-family: "Quicksand", sans-serif;
-  color: #fff;
-  font-size: 2em;
-}
-
-.navbar-brand #sub-title {
-  font-size: 0.5em;
-  text-align: center;
-}
-
-body {
-  height: 100vh;
-  width: 100vw;
-  background-image: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
-  background-size: 300% 300%;
-  -webkit-animation: move 25s ease infinite;
-          animation: move 25s ease infinite;
-}
-
 @-webkit-keyframes move {
   0% {
     background-position: 0% 50%;
@@ -38,6 +14,82 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+@keyframes move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-webkit-keyframes brand {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes brand {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-brand,
+#offcanvasTopLabel {
+  font: 2em "Quicksand", sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-brand #sub-title,
+#offcanvasTopLabel #sub-title {
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.navbar-brand:hover,
+#offcanvasTopLabel:hover {
+  -webkit-animation: brand 4s ease infinite;
+          animation: brand 4s ease infinite;
+  color: #fff;
+}
+
+.nav-link {
+  font: 1.5em "Quicksand", sans-serif;
+  color: #fff;
+  -webkit-animation: brand 4s ease infinite;
+          animation: brand 4s ease infinite;
+}
+
+.nav-link:hover {
+  color: #fff;
 }
 
 @keyframes move {
@@ -50,5 +102,33 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+
+@keyframes brand {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body,
+body .offcanvas {
+  background-image: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+  background-size: 300% 300%;
+  -webkit-animation: move 25s ease infinite;
+          animation: move 25s ease infinite;
 }
 /*# sourceMappingURL=main.css.map */

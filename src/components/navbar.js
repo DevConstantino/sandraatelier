@@ -8,15 +8,10 @@ function Navbar() {
 			<nav className={`navbar`}>
 				<div className="container-fluid">
 					<a className={`navbar-brand mx-auto order-2`} href="#">
-						<img
-							src=""
-							alt=""
-							width="30"
-							height="24"
-							className={`align-text-top d-none`}
-						></img>
-                        <p className="d-block m-0">Sandra</p>
-                        <p className="m-0" id="sub-title">Atelier</p>
+						<p className="d-block m-0">Sandra</p>
+						<p className="m-0" id="sub-title">
+							Atelier
+						</p>
 					</a>
 					<button
 						className="btn btn-primary"
@@ -34,7 +29,9 @@ function Navbar() {
 						aria-labelledby="offcanvasTopLabel"
 					>
 						<div className="offcanvas-header">
-							<h5 id="offcanvasTopLabel">myReactStrap</h5>
+							<p className="mx-auto ps-4" id="offcanvasTopLabel">
+								Sandra
+							</p>
 							<button
 								type="button"
 								className="btn-close text-reset"
@@ -44,19 +41,19 @@ function Navbar() {
 						</div>
 						<div className="offcanvas-body pt-0">
 							<ul className={`nav flex-column`}>
-								<li className="nav-item">
-									<a className="nav-link" href="">
+								<li className="nav-item mx-auto">
+									<a className="nav-link my-3" href="">
 										Home
 									</a>
 								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="">
+								<li className="nav-item mx-auto">
+									<a className="nav-link my-3" href="">
 										About
 									</a>
 								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="">
-										etc..
+								<li className="nav-item mx-auto">
+									<a className="nav-link my-3" href="">
+										Contato
 									</a>
 								</li>
 							</ul>

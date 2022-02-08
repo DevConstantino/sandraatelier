@@ -1,0 +1,3 @@
+@function paleta($cor) {
+	@return map-get($cores, $cor);
+}
