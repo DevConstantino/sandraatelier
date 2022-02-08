@@ -1,0 +1,16 @@
+@import "./variables";
+
+.navbar {
+	background-color: transparent;
+}
+
+.navbar-brand {
+	font-family: $brandFont;
+	color: $cor1;
+	font-size: 2em;
+
+	#sub-title {
+		font-size: 0.5em;
+		text-align: center;
+	}
+}

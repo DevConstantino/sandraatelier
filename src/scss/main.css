@@ -1,0 +1,54 @@
+/* Paleta de cores */
+/* Fontes */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+/* Paleta de cores */
+/* Fontes */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-brand {
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+  font-size: 2em;
+}
+
+.navbar-brand #sub-title {
+  font-size: 0.5em;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+  background-size: 300% 300%;
+  -webkit-animation: move 25s ease infinite;
+          animation: move 25s ease infinite;
+}
+
+@-webkit-keyframes move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
