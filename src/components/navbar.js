@@ -14,7 +14,7 @@ function Navbar() {
 						</p>
 					</a>
 					<button
-						className="btn btn-primary"
+						className="btn"
 						type="button"
 						data-bs-toggle="offcanvas"
 						data-bs-target="#offcanvasTop"
@@ -43,17 +43,23 @@ function Navbar() {
 							<ul className={`nav flex-column`}>
 								<li className="nav-item mx-auto">
 									<a className="nav-link my-3" href="">
-										Home
+										<div className="hover001">
+											<p id="hover001">Home</p>
+										</div>
 									</a>
 								</li>
 								<li className="nav-item mx-auto">
 									<a className="nav-link my-3" href="">
-										About
+										<div className="hover001">
+											<p id="hover001">About</p>
+										</div>
 									</a>
 								</li>
 								<li className="nav-item mx-auto">
 									<a className="nav-link my-3" href="">
-										Contato
+										<div className="hover001">
+											<p id="hover001">Contato</p>
+										</div>
 									</a>
 								</li>
 							</ul>

@@ -1,0 +1,29 @@
+@import "./variables";
+@import "./functions";
+
+$tickness: 1px;
+$bottom: (
+	"first": 0px,
+);
+
+.hover001 {
+	position: relative;
+
+	#hover001::after {
+		bottom: map-get($bottom, first);
+	}
+}
+
+#hover001::after {
+	content: "";
+	position: absolute;
+	background-color: paleta(cor1);
+	height: $tickness;
+	width: 0%;
+	left: 0;
+	transition: 0.5s;
+}
+
+#hover001:hover::after {
+	width: 100%;
+}

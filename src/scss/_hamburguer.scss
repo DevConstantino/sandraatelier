@@ -1,0 +1,55 @@
+@import "./variables";
+@import "./functions";
+
+$height: 1px;
+$width: (
+	"cima": 1.8em,
+	"meio": 1.3em,
+	"baixo": 0.8em,
+);
+
+.btn {
+	position: absolute;
+}
+
+.hamburguer {
+	display: block;
+	position: relative;
+}
+
+.hamburguer,
+.hamburguer::before,
+.hamburguer::after {
+	height: 1px;
+	background: paleta(cor1);
+	transition: 0.3s ease-in-out;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+	content: "";
+	position: absolute;
+	left: 0;
+}
+
+.hamburguer {
+	width: map-get($width, meio);
+}
+
+.hamburguer::before {
+	width: map-get($width, cima);
+	bottom: 6px;
+}
+
+.hamburguer::after {
+	width: map-get($width, baixo);
+	top: 6px;
+}
+
+.btn:hover {
+	.hamburguer,
+	.hamburguer::after {
+		width: map-get($width, cima);
+	}
+}
+

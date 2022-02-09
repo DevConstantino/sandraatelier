@@ -4,6 +4,8 @@
 /* Paleta de cores */
 /* Fontes */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @-webkit-keyframes move {
   0% {
     background-position: 0% 50%;
@@ -117,6 +119,77 @@
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+}
+
+/* Paleta de cores */
+/* Fontes */
+.hover001 {
+  position: relative;
+}
+
+.hover001 #hover001::after {
+  bottom: 0px;
+}
+
+#hover001::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 1px;
+  width: 0%;
+  left: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#hover001:hover::after {
+  width: 100%;
+}
+
+/* Paleta de cores */
+/* Fontes */
+.btn {
+  position: absolute;
+}
+
+.hamburguer {
+  display: block;
+  position: relative;
+}
+
+.hamburguer,
+.hamburguer::before,
+.hamburguer::after {
+  height: 1px;
+  background: #fff;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.hamburguer {
+  width: 1.3em;
+}
+
+.hamburguer::before {
+  width: 1.8em;
+  bottom: 6px;
+}
+
+.hamburguer::after {
+  width: 0.8em;
+  top: 6px;
+}
+
+.btn:hover .hamburguer,
+.btn:hover .hamburguer::after {
+  width: 1.8em;
 }
 
 body {
