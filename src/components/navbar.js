@@ -20,7 +20,7 @@ function Navbar() {
 						data-bs-target="#offcanvasTop"
 						aria-controls="offcanvasTop"
 					>
-						Ham
+						<span className="hamburguer"></span>
 					</button>
 					<div
 						className={`offcanvas offcanvas-start`}
