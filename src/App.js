@@ -1,12 +1,14 @@
 import Navbar from "./components/navbar";
-import './scss/main.css'
+import Sidebar from "./components/sidebar";
+import "./scss/main.css";
 
 function App() {
-  return (
-    <body>
-      <Navbar/>
-    </body>
-  );
+	return (
+		<body>
+			<Navbar />
+			<Sidebar />
+		</body>
+	);
 }
 
 export default App;

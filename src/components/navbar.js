@@ -14,7 +14,7 @@ function Navbar() {
 						</p>
 					</a>
 					<button
-						className="btn"
+						className="btn pb-2"
 						type="button"
 						data-bs-toggle="offcanvas"
 						data-bs-target="#offcanvasTop"
@@ -34,7 +34,7 @@ function Navbar() {
 							</p>
 							<button
 								type="button"
-								className="btn-close text-reset"
+								className="btn-close text-reset mb-1"
 								data-bs-dismiss="offcanvas"
 								aria-label="Close"
 							></button>
@@ -51,7 +51,7 @@ function Navbar() {
 								<li className="nav-item mx-auto">
 									<a className="nav-link my-3" href="">
 										<div className="hover001">
-											<p id="hover001">About</p>
+											<p id="hover001">Sobre</p>
 										</div>
 									</a>
 								</li>

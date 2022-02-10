@@ -27,3 +27,11 @@ $bottom: (
 #hover001:hover::after {
 	width: 100%;
 }
+
+.btn-close {
+	transition: all 1s ease-in-out;
+}
+
+.btn-close:hover {
+	transform: rotateZ(90deg) !important;
+}

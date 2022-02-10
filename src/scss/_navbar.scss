@@ -32,3 +32,12 @@
 		color: paleta(cor1);
 	}
 }
+
+.btn:focus,
+.btn-close:focus {
+	box-shadow: 0 0 0;
+}
+
+.btn-close {
+	filter: invert(1);
+}

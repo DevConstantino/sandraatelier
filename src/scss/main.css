@@ -94,6 +94,17 @@
   color: #fff;
 }
 
+.btn:focus,
+.btn-close:focus {
+  -webkit-box-shadow: 0 0 0;
+          box-shadow: 0 0 0;
+}
+
+.btn-close {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 @keyframes move {
   0% {
     background-position: 0% 50%;
@@ -144,6 +155,16 @@
 
 #hover001:hover::after {
   width: 100%;
+}
+
+.btn-close {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.btn-close:hover {
+  -webkit-transform: rotateZ(90deg) !important;
+          transform: rotateZ(90deg) !important;
 }
 
 /* Paleta de cores */
