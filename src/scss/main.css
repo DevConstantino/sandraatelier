@@ -248,6 +248,42 @@ div #errorBtn {
   border-color: #3f3d56;
 }
 
+.formMain {
+  min-height: 100vh;
+}
+
+.formMain .form {
+  width: 400px;
+  height: 300px;
+  -webkit-transform: translateY(20vh);
+          transform: translateY(20vh);
+}
+
+.formMain input,
+.formMain input:focus {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #fff;
+}
+
+.formMain label,
+.formMain input,
+.formMain input:focus {
+  font: 0.8em "Quicksand", sans-serif;
+  color: #fff;
+}
+
+.formMain .btnForm {
+  font-size: 1.15em;
+  -webkit-transform: translateX(-43.7px);
+          transform: translateX(-43.7px);
+}
+
+.formMain .btnForm:hover {
+  color: #cd8d7b;
+}
+
 body {
   height: 100vh;
   width: 100vw;

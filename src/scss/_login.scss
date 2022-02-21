@@ -1,0 +1,27 @@
+.formMain {
+	min-height: 100vh;
+	.form {
+		width: 400px;
+		height: 300px;
+		transform: translateY(20vh);
+	}
+	input,
+	input:focus {
+		background-color: transparent;
+		box-shadow: none;
+		border-color: paleta(cor1);
+	}
+	label,
+	input,
+	input:focus {
+		font: 0.8em $brandFont;
+		color: paleta(cor1);
+	}
+	.btnForm {
+		font-size: 1.15em;
+        transform: translateX(-43.7px);
+	}
+	.btnForm:hover {
+		color: paleta(cor4);
+	}
+}

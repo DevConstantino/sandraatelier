@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
 	return (
 		<header>
 			<nav className={`navbar`}>
 				<div className="container-fluid">
-					<a className={`navbar-brand mx-auto order-2`} href="#">
+					<Link className={`navbar-brand mx-auto order-2`} to='/'>
 						<p className="d-block m-0">Sandra</p>
 						<p className="m-0" id="sub-title">
 							Atelier
 						</p>
-					</a>
+					</Link>
 					<button
 						className="btn pb-2"
 						type="button"
