@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @-webkit-keyframes move {
   0% {
     background-position: 0% 50%;
@@ -158,8 +159,8 @@
 }
 
 .btn-close {
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn-close:hover {
@@ -211,6 +212,40 @@
 .btn:hover .hamburguer,
 .btn:hover .hamburguer::after {
   width: 1.8em;
+}
+
+/* Paleta de cores */
+/* Fontes */
+div {
+  text-align: center;
+}
+
+div img {
+  max-width: 600px;
+}
+
+div h1 {
+  color: #3f3d56;
+}
+
+div p,
+div #errorBtn {
+  font: 1.25em "Quicksand", sans-serif;
+  color: #fff;
+}
+
+div .link {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+div #errorBtn:hover {
+  background-color: #3f3d56;
+  border-color: #3f3d56;
+}
+
+div #errorBtn {
+  border-color: #3f3d56;
 }
 
 body {

@@ -1,0 +1,28 @@
+@import "./variables";
+@import "./functions";
+
+div {
+	text-align: center;
+	img {
+		max-width: 600px;
+	}
+	h1 {
+		color: paleta(cor6);
+	}
+	p,
+	#errorBtn {
+		font: 1.25em $brandFont;
+		color: paleta(cor1);
+	}
+	.link {
+		text-decoration: none !important;
+		color: paleta(cor1);
+	}
+	#errorBtn:hover {
+		background-color: paleta(cor6);
+		border-color: paleta(cor6);
+	}
+	#errorBtn {
+		border-color: paleta(cor6);
+	}
+}
