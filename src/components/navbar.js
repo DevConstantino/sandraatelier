@@ -40,25 +40,25 @@ function Navbar() {
 						<div className="offcanvas-body pt-0">
 							<ul className={`nav flex-column`}>
 								<li className="nav-item mx-auto">
-									<a className="nav-link my-3" href="">
+									<a className="nav-link my-3 navegation" href="">
 										<div className="hover001">
 											<p id="hover001">Home</p>
 										</div>
 									</a>
 								</li>
 								<li className="nav-item mx-auto">
-									<a className="nav-link my-3" href="">
+									<a className="nav-link my-3 navegation" href="">
 										<div className="hover001">
 											<p id="hover001">Sobre</p>
 										</div>
 									</a>
 								</li>
 								<li className="nav-item mx-auto">
-									<a className="nav-link my-3" href="">
+									<Link className="nav-link my-3 navegation" to='/contato'>
 										<div className="hover001">
 											<p id="hover001">Contato</p>
 										</div>
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>

@@ -1,12 +1,14 @@
 @import "./variables";
 @import "./navbar";
+@import "./main";
 @import "./animations";
 @import "./hover";
 @import "./hamburguer";
-@import './error';
-@import './contato';
-@import './functions';
-@import './login';
+@import "./error";
+@import "./contato";
+@import "./functions";
+@import "./login";
+@import './footer';
 
 body {
 	height: 100vh;
@@ -25,4 +27,3 @@ body {
 		animation: move 25s ease infinite;
 	}
 }
-

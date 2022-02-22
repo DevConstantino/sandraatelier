@@ -1,6 +1,9 @@
 @import "./variables";
 @import "./functions";
 
-main{
-    background-color: transparent;
+main {
+	background-color: transparent;
+	.sidebar {
+		transform: translate(-15px);
+	}
 }

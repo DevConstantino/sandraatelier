@@ -1,35 +1,33 @@
-import React from "react";
-import { TiSociadivnstagram } from "react-icons/ti";
-import { HiOutdivneMail } from "react-icons/hi";
-import { BsFillChatDotsFill } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
+import { FiInstagram } from "react-icons/fi";
+import { FaFacebookF } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
 	return (
-		<nav className="navbar h-100 w-100">
-			<div className="d-flex flex-column justify-content-around">
-				<div className="nav-item">
-					<button className="btn btn-primary">
-						<a className="nav-divnk" href="#">
-							<BsFillChatDotsFill />
-						</a>
-					</button>
-				</div>
-				<div className="nav-item">
-					<button className="btn btn-primary">
-						<a className="nav-divnk" href="#">
-							<BsFillChatDotsFill />
-						</a>
-					</button>
-				</div>
-				<div className="nav-item">
-					<button className="btn btn-primary">
-						<a className="nav-divnk" href="#">
-							<BsFillChatDotsFill />
-						</a>
-					</button>
-				</div>
-			</div>
-		</nav>
+		<ul class="nav justify-content-center flex-column">
+			<li class="nav-item py-2">
+				<Link class="nav-link active" aria-current="page" to="">
+					<SiGmail />
+				</Link>
+			</li>
+			<li class="nav-item py-2">
+				<Link class="nav-link" to="">
+					<FiInstagram />
+				</Link>
+			</li>
+			<li class="nav-item py-2">
+				<Link class="nav-link" to="">
+					<FaFacebookF />
+				</Link>
+			</li>
+			<li class="nav-item py-2">
+				<Link class="nav-link" to="">
+					<FaShoppingCart />
+				</Link>
+			</li>
+		</ul>
 	);
 }
 
