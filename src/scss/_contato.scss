@@ -1,0 +1,56 @@
+@import "./variables";
+@import "./functions";
+
+#formContact {
+	transform: translateX(150px);
+	text-align: center;
+	.contactImg {
+		max-width: 300px;
+	}
+	h1 {
+		color: paleta(cor6);
+	}
+	p,
+	#contactBtn {
+		font: 1.25em $brandFont;
+		color: paleta(cor1);
+	}
+	.link {
+		text-decoration: none !important;
+		color: paleta(cor1);
+	}
+	#contactBtn:hover {
+		background-color: paleta(cor6);
+		border-color: paleta(cor6);
+	}
+	#contactBtn {
+		border-color: paleta(cor6);
+	}
+	#floatingTextarea,
+	#floatingInput,
+	.form-floating {
+		width: 350px;
+		background-color: transparent;
+		font: 1em $brandFont;
+		color: paleta(cor1);
+	}
+	#floatingTextarea {
+		height: 150px;
+	}
+	#floatingInput {
+		height: 40px;
+	}
+	#labelInput {
+		font-size: 0.8em;
+		transform: translate(5px, 5px);
+	}
+	#labelTextarea {
+		font-size: 0.8em;
+		transform: translate(5px, 5px);
+	}
+	#floatingTextarea:focus,
+	#floatingInput {
+		box-shadow: none;
+        border-color: paleta(cor1);
+	}
+}

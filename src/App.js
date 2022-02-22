@@ -3,6 +3,7 @@ import Edit from "./pages/Edit";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Error from "./pages/Error";
+import Contato from "./pages/Contato";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "./scss/main.css";
@@ -14,6 +15,7 @@ function App() {
 				<Route path="/" element={<Landing />} />
 				<Route path="/login" element={<Login />} />
 				<Route path="/edit" element={<Edit />} />
+				<Route path="/contato" element={<Contato />} />
 				<Route path="*" element={<Error />} />
 			</Routes>
 		</BrowserRouter>

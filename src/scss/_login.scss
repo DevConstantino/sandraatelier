@@ -18,7 +18,7 @@
 		color: paleta(cor1);
 	}
 	.btnForm {
-		font-size: 1.15em;
+		font: 1.3em $brandFont;
         transform: translateX(-43.7px);
 	}
 	.btnForm:hover {

@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @-webkit-keyframes move {
   0% {
     background-position: 0% 50%;
@@ -220,7 +221,7 @@ div {
   text-align: center;
 }
 
-div img {
+div .errorImg {
   max-width: 600px;
 }
 
@@ -246,6 +247,78 @@ div #errorBtn:hover {
 
 div #errorBtn {
   border-color: #3f3d56;
+}
+
+/* Paleta de cores */
+/* Fontes */
+#formContact {
+  -webkit-transform: translateX(150px);
+          transform: translateX(150px);
+  text-align: center;
+}
+
+#formContact .contactImg {
+  max-width: 300px;
+}
+
+#formContact h1 {
+  color: #3f3d56;
+}
+
+#formContact p,
+#formContact #contactBtn {
+  font: 1.25em "Quicksand", sans-serif;
+  color: #fff;
+}
+
+#formContact .link {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+#formContact #contactBtn:hover {
+  background-color: #3f3d56;
+  border-color: #3f3d56;
+}
+
+#formContact #contactBtn {
+  border-color: #3f3d56;
+}
+
+#formContact #floatingTextarea,
+#formContact #floatingInput,
+#formContact .form-floating {
+  width: 350px;
+  background-color: transparent;
+  font: 1em "Quicksand", sans-serif;
+  color: #fff;
+}
+
+#formContact #floatingTextarea {
+  height: 150px;
+}
+
+#formContact #floatingInput {
+  height: 40px;
+}
+
+#formContact #labelInput {
+  font-size: 0.8em;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+}
+
+#formContact #labelTextarea {
+  font-size: 0.8em;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+}
+
+#formContact #floatingTextarea:focus,
+#formContact #floatingInput {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #fff;
 }
 
 .formMain {
@@ -275,7 +348,7 @@ div #errorBtn {
 }
 
 .formMain .btnForm {
-  font-size: 1.15em;
+  font: 1.3em "Quicksand", sans-serif;
   -webkit-transform: translateX(-43.7px);
           transform: translateX(-43.7px);
 }
