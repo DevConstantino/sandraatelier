@@ -1,0 +1,18 @@
+.btnSidebar {
+	border-radius: 50%;
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.5);
+	height: 40px;
+	width: 40px;
+	/* 	border-color: paleta(cor1); */
+	.sideIcons {
+		color: paleta(cor1);
+	}
+}
+
+.animation01 {
+	animation: sideIcons01 2s linear infinite;
+}
+.animation02 {
+	animation: sideIcons02 2s linear infinite;
+}

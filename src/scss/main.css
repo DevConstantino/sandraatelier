@@ -62,6 +62,82 @@
   }
 }
 
+@-webkit-keyframes sideIcons01 {
+  0% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  33% {
+    -webkit-transform: translate(-0.5px);
+            transform: translate(-0.5px);
+  }
+  66% {
+    -webkit-transform: translate(0.5px);
+            transform: translate(0.5px);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+}
+
+@keyframes sideIcons01 {
+  0% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  33% {
+    -webkit-transform: translate(-0.5px);
+            transform: translate(-0.5px);
+  }
+  66% {
+    -webkit-transform: translate(0.5px);
+            transform: translate(0.5px);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+}
+
+@-webkit-keyframes sideIcons02 {
+  0% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  33% {
+    -webkit-transform: translate(0.5px);
+            transform: translate(0.5px);
+  }
+  66% {
+    -webkit-transform: translate(-0.5px);
+            transform: translate(-0.5px);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+}
+
+@keyframes sideIcons02 {
+  0% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  33% {
+    -webkit-transform: translate(0.5px);
+            transform: translate(0.5px);
+  }
+  66% {
+    -webkit-transform: translate(-0.5px);
+            transform: translate(-0.5px);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+}
+
 .navbar {
   background-color: transparent;
 }
@@ -115,8 +191,8 @@ main {
 }
 
 main .sidebar {
-  -webkit-transform: translate(-15px);
-          transform: translate(-15px);
+  -webkit-transform: translate(-20px);
+          transform: translate(-20px);
 }
 
 @keyframes move {
@@ -143,6 +219,44 @@ main .sidebar {
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
+  }
+}
+
+@keyframes sideIcons01 {
+  0% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  33% {
+    -webkit-transform: translate(-0.5px);
+            transform: translate(-0.5px);
+  }
+  66% {
+    -webkit-transform: translate(0.5px);
+            transform: translate(0.5px);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+}
+
+@keyframes sideIcons02 {
+  0% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  33% {
+    -webkit-transform: translate(0.5px);
+            transform: translate(0.5px);
+  }
+  66% {
+    -webkit-transform: translate(-0.5px);
+            transform: translate(-0.5px);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
   }
 }
 
@@ -372,6 +486,29 @@ div #errorBtn {
 .madeWho {
   font: 0.8em "Quicksand", sans-serif;
   color: #fff;
+}
+
+.btnSidebar {
+  border-radius: 50%;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.5);
+  height: 40px;
+  width: 40px;
+  /* 	border-color: paleta(cor1); */
+}
+
+.btnSidebar .sideIcons {
+  color: #fff;
+}
+
+.animation01 {
+  -webkit-animation: sideIcons01 2s linear infinite;
+          animation: sideIcons01 2s linear infinite;
+}
+
+.animation02 {
+  -webkit-animation: sideIcons02 2s linear infinite;
+          animation: sideIcons02 2s linear infinite;
 }
 
 body {

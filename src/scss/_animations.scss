@@ -22,3 +22,32 @@
 	}
 }
 
+@keyframes sideIcons01 {
+	0% {
+		transform: translate(0px);
+	}
+	33% {
+		transform: translate(-0.5px);
+	}
+	66% {
+		transform: translate(0.5px);
+	}
+	100% {
+		transform: translate(0px);
+	}
+}
+
+@keyframes sideIcons02 {
+	0% {
+		transform: translate(0px);
+	}
+	33% {
+		transform: translate(0.5px);
+	}
+	66% {
+		transform: translate(-0.5px);
+	}
+	100% {
+		transform: translate(0px);
+	}
+}
