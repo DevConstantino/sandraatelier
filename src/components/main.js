@@ -1,10 +1,13 @@
 import Sidebar from "../components/sidebar";
+import CarouselWrapper from "./CarouselWrapper";
 
 function Main() {
 	return (
 		<main className="w-100 h-100 d-flex">
-			<section className="order-1"></section>
-			<section className="order-2 ms-auto sidebar pt-3">
+			<section className="container pt-3">
+				<CarouselWrapper />
+			</section>
+			<section className="ms-auto sidebar pt-3">
 				<Sidebar />
 			</section>
 		</main>
