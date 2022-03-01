@@ -7,7 +7,10 @@ function Sidebar() {
   return (
     <ul class='nav justify-content-center flex-column'>
       <li class='nav-item py-2'>
-        <button className='btn-outline-primary btnSidebar shadow-lg animation01'>
+        <button
+          id='sideBtn01'
+          className='btn-outline-primary btnSidebar shadow-lg animation01'
+        >
           <a
             target='_blank'
             class='nav-link active m-0 p-0 sideIcons'
@@ -19,7 +22,10 @@ function Sidebar() {
         </button>
       </li>
       <li class='nav-item py-2'>
-        <button className='btn-outline-primary btnSidebar shadow-lg animation02'>
+        <button
+          id='sideBtn02'
+          className='btn-outline-primary btnSidebar shadow-lg animation02'
+        >
           <a
             target='_blank'
             class='nav-link active m-0 p-0 sideIcons'
@@ -31,7 +37,10 @@ function Sidebar() {
         </button>
       </li>
       <li class='nav-item py-2'>
-        <button className='btn-primary btnSidebar shadow-lg animation01'>
+        <button
+          id='sideBtn03'
+          className='btn-primary btnSidebar shadow-lg animation01'
+        >
           <a
             target='_blank'
             class='nav-link active m-0 p-0 sideIcons'
@@ -43,7 +52,10 @@ function Sidebar() {
         </button>
       </li>
       <li class='nav-item py-2'>
-        <button className='btn-outline-primary btnSidebar shadow-lg animation02'>
+        <button
+          id='sideBtn04'
+          className='btn-outline-primary btnSidebar shadow-lg animation02'
+        >
           <a
             target='_blank'
             class='nav-link active m-0 p-0 sideIcons'
