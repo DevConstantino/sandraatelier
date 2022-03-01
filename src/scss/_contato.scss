@@ -1,56 +1,113 @@
-@import "./variables";
-@import "./functions";
+@import './variables';
+@import './functions';
 
 #formContact {
-	transform: translateX(150px);
-	text-align: center;
-	.contactImg {
-		max-width: 300px;
-	}
-	h1 {
-		color: paleta(cor6);
-	}
-	p,
-	#contactBtn {
-		font: 1.25em $brandFont;
-		color: paleta(cor1);
-	}
-	.link {
-		text-decoration: none !important;
-		color: paleta(cor1);
-	}
-	#contactBtn:hover {
-		background-color: paleta(cor6);
-		border-color: paleta(cor6);
-	}
-	#contactBtn {
-		border-color: paleta(cor6);
-	}
-	#floatingTextarea,
-	#floatingInput,
-	.form-floating {
-		width: 350px;
-		background-color: transparent;
-		font: 1em $brandFont;
-		color: paleta(cor1);
-	}
-	#floatingTextarea {
-		height: 150px;
-	}
-	#floatingInput {
-		height: 40px;
-	}
-	#labelInput {
-		font-size: 0.8em;
-		transform: translate(5px, 5px);
-	}
-	#labelTextarea {
-		font-size: 0.8em;
-		transform: translate(5px, 5px);
-	}
-	#floatingTextarea:focus,
-	#floatingInput {
-		box-shadow: none;
-        border-color: paleta(cor1);
-	}
+  text-align: center;
+  .contactImg {
+    max-width: 300px;
+  }
+  h1 {
+    color: paleta(cor6);
+  }
+  p,
+  #contactBtn {
+    font: 1.25em $brandFont;
+    color: paleta(cor1);
+  }
+  .link {
+    text-decoration: none !important;
+    color: paleta(cor1);
+  }
+  #contactBtn:hover {
+    background-color: paleta(cor6);
+    border-color: paleta(cor6);
+  }
+  #contactBtn {
+    border-color: paleta(cor6);
+    background: transparent;
+    border-radius: 5px;
+  }
+  #contactBtn:focus {
+    box-shadow: none !important;
+  }
+  #floatingTextarea,
+  #floatingInput,
+  .form-floating {
+    width: 350px;
+    background-color: transparent;
+    font: 1em $brandFont;
+    color: paleta(cor1);
+  }
+  #floatingTextarea {
+    height: 150px;
+  }
+  #floatingInput {
+    height: 40px;
+  }
+  #labelInput {
+    font-size: 0.8em;
+    transform: translate(5px, 5px);
+  }
+  #labelTextarea {
+    font-size: 0.8em;
+    transform: translate(5px, 5px);
+  }
+  #floatingTextarea:focus,
+  #floatingInput {
+    box-shadow: none;
+    border-color: paleta(cor1);
+  }
+}
+
+#contactSidebar {
+  transform: translate(180px, -250px);
+  #contactSideBtn01:hover {
+    background-color: #ea4335;
+    border-color: #ea4335;
+  }
+  #contactSideBtn02:hover {
+    background: radial-gradient(
+        circle farthest-corner at 35% 90%,
+        #fec564,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle farthest-corner at 0 140%,
+        #fec564,
+        transparent 50%
+      ),
+      radial-gradient(
+        ellipse farthest-corner at 0 -25%,
+        #5258cf,
+        transparent 50%
+      ),
+      radial-gradient(
+        ellipse farthest-corner at 20% -50%,
+        #5258cf,
+        transparent 50%
+      ),
+      radial-gradient(
+        ellipse farthest-corner at 100% 0,
+        #893dc2,
+        transparent 50%
+      ),
+      radial-gradient(
+        ellipse farthest-corner at 60% -20%,
+        #893dc2,
+        transparent 50%
+      ),
+      radial-gradient(
+        ellipse farthest-corner at 100% 100%,
+        #d9317a,
+        transparent
+      ),
+      linear-gradient(
+        #6559ca,
+        #bc318f 30%,
+        #e33f5f 50%,
+        #f77638 70%,
+        #fec66d 100%
+      );
+    border-color: #bc3190be;
+  }
 }

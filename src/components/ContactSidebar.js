@@ -3,11 +3,11 @@ import { FiInstagram } from 'react-icons/fi';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaShoppingCart } from 'react-icons/fa';
 
-function Sidebar() {
+function ContactSidebar() {
   return (
     <ul class='nav justify-content-center flex-column'>
       <li class='nav-item py-2'>
-        <button className='btn-outline-primary btnSidebar shadow-lg animation01'>
+        <button id='contactSideBtn01' className='btn-outline-primary btnSidebar shadow-lg animation01'>
           <a
             target='_blank'
             class='nav-link active m-0 p-0 sideIcons'
@@ -19,7 +19,7 @@ function Sidebar() {
         </button>
       </li>
       <li class='nav-item py-2'>
-        <button className='btn-outline-primary btnSidebar shadow-lg animation02'>
+        <button id='contactSideBtn02' className='btn-outline-primary btnSidebar shadow-lg animation02'>
           <a
             target='_blank'
             class='nav-link active m-0 p-0 sideIcons'
@@ -31,7 +31,7 @@ function Sidebar() {
         </button>
       </li>
       <li class='nav-item py-2'>
-        <button className='btn-primary btnSidebar shadow-lg animation01'>
+        <button id='contactSideBtn03' className='btn-primary btnSidebar shadow-lg animation01'>
           <a
             target='_blank'
             class='nav-link active m-0 p-0 sideIcons'
@@ -42,20 +42,8 @@ function Sidebar() {
           </a>
         </button>
       </li>
-      <li class='nav-item py-2'>
-        <button className='btn-outline-primary btnSidebar shadow-lg animation02'>
-          <a
-            target='_blank'
-            class='nav-link active m-0 p-0 sideIcons'
-            aria-current='page'
-            href='#'
-          >
-            <FaShoppingCart />
-          </a>
-        </button>
-      </li>
     </ul>
   );
 }
 
-export default Sidebar;
+export default ContactSidebar;
