@@ -4,11 +4,11 @@ const CarouselWrapper = () => {
   return (
     <div
       id='carouselExampleFade'
-      class='carousel slide carousel-fade position-relative'
+      className='carousel slide carousel-fade position-relative'
       data-bs-ride='carousel'
     >
-      <div class='carousel-inner pb-4'>
-        <div class='carousel-item active'>
+      <div className='carousel-inner pb-4 ms-auto'>
+        <div className='carousel-item active'>
           <Content />
         </div>
         <div class='carousel-item'>

@@ -560,6 +560,16 @@ div #errorBtn {
   width: 150px;
 }
 
+.carousel-control-prev {
+  -webkit-transform: translateX(400px);
+          transform: translateX(400px);
+}
+
+.carousel-control-next {
+  -webkit-transform: translateX(-400px);
+          transform: translateX(-400px);
+}
+
 body {
   height: 100vh;
   width: 100vw;
